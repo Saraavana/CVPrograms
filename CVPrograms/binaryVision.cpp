@@ -15,7 +15,7 @@
 using namespace std;
 using namespace cv;
 
-
+/*
 int main()
 {
     string imagePath1 = "/Users/saravana/Desktop/CVPrograms/Images/lena.jpg";
@@ -55,3 +55,4 @@ int main()
 
     return EXIT_SUCCESS;
 }
+*/

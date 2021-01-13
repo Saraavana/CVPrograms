@@ -116,6 +116,7 @@
 		4443109025A1183100AC7340 /* smoothing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4443108F25A1183100AC7340 /* smoothing.cpp */; };
 		4443109225A3AC5C00AC7340 /* binaryVision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4443109125A3AC5C00AC7340 /* binaryVision.cpp */; };
 		4454B3142569EEE200CBF64A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4454B3132569EEE200CBF64A /* main.cpp */; };
+		44F58D5E25AF7E5C006C849A /* GeometryTransformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D5D25AF7E5C006C849A /* GeometryTransformation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -255,6 +256,10 @@
 		44F58D5A25AF71AC006C849A /* redHatSimple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redHatSimple.jpg; sourceTree = "<group>"; };
 		44F58D5B25AF71AC006C849A /* BabyFood-Test6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BabyFood-Test6.JPG"; sourceTree = "<group>"; };
 		44F58D5C25AF71AC006C849A /* redHats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redHats.jpg; sourceTree = "<group>"; };
+		44F58D5D25AF7E5C006C849A /* GeometryTransformation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryTransformation.cpp; sourceTree = "<group>"; };
+		44F58D6025AF7EE9006C849A /* mouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mouse.h; sourceTree = "<group>"; };
+		44F58D6125AF7FFE006C849A /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
+		44F58D6225AF7FFE006C849A /* snooker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snooker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,10 +407,12 @@
 		4454B3122569EEE200CBF64A /* CVPrograms */ = {
 			isa = PBXGroup;
 			children = (
+				44F58D5F25AF7ED3006C849A /* Header Files */,
 				4454B3132569EEE200CBF64A /* main.cpp */,
 				4443108D259FAEFA00AC7340 /* grayForAllPixels.cpp */,
 				4443108F25A1183100AC7340 /* smoothing.cpp */,
 				4443109125A3AC5C00AC7340 /* binaryVision.cpp */,
+				44F58D5D25AF7E5C006C849A /* GeometryTransformation.cpp */,
 			);
 			path = CVPrograms;
 			sourceTree = "<group>";
@@ -416,9 +423,19 @@
 				44F58D5925AF719E006C849A /* lena.jpg */,
 				44F58D5B25AF71AC006C849A /* BabyFood-Test6.JPG */,
 				44F58D5C25AF71AC006C849A /* redHats.jpg */,
+				44F58D6125AF7FFE006C849A /* plate.png */,
+				44F58D6225AF7FFE006C849A /* snooker.png */,
 				44F58D5A25AF71AC006C849A /* redHatSimple.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		44F58D5F25AF7ED3006C849A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				44F58D6025AF7EE9006C849A /* mouse.h */,
+			);
+			path = "Header Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,6 +498,7 @@
 			files = (
 				4454B3142569EEE200CBF64A /* main.cpp in Sources */,
 				4443109025A1183100AC7340 /* smoothing.cpp in Sources */,
+				44F58D5E25AF7E5C006C849A /* GeometryTransformation.cpp in Sources */,
 				4443109225A3AC5C00AC7340 /* binaryVision.cpp in Sources */,
 				4443108E259FAEFA00AC7340 /* grayForAllPixels.cpp in Sources */,
 			);
