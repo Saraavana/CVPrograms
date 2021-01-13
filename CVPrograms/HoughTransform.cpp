@@ -16,7 +16,7 @@
 using namespace std;
 using namespace cv;
 
-
+/*
 int main() {
 
     Mat imgLines, imgCircles, detectImgLines, detectImgLinesP, detectImgCircles;
@@ -108,3 +108,4 @@ int main() {
 
   return 0;
 }
+*/

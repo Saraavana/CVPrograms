@@ -119,6 +119,7 @@
 		44F58D5E25AF7E5C006C849A /* GeometryTransformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D5D25AF7E5C006C849A /* GeometryTransformation.cpp */; };
 		44F58D7A25AF8AAA006C849A /* CameraCalibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D7925AF8AAA006C849A /* CameraCalibration.cpp */; };
 		44F58D7C25AF9D19006C849A /* HoughTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D7B25AF9D19006C849A /* HoughTransform.cpp */; };
+		44F58D8225AFA504006C849A /* CornerDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D8125AFA504006C849A /* CornerDetection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -287,6 +288,9 @@
 		44F58D7B25AF9D19006C849A /* HoughTransform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HoughTransform.cpp; sourceTree = "<group>"; };
 		44F58D7D25AF9D44006C849A /* circles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circles.png; sourceTree = "<group>"; };
 		44F58D7E25AF9D50006C849A /* lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lines.png; sourceTree = "<group>"; };
+		44F58D7F25AFA4F2006C849A /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		44F58D8025AFA4F2006C849A /* squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares.png; sourceTree = "<group>"; };
+		44F58D8125AFA504006C849A /* CornerDetection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CornerDetection.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -442,6 +446,7 @@
 				44F58D5D25AF7E5C006C849A /* GeometryTransformation.cpp */,
 				44F58D7925AF8AAA006C849A /* CameraCalibration.cpp */,
 				44F58D7B25AF9D19006C849A /* HoughTransform.cpp */,
+				44F58D8125AFA504006C849A /* CornerDetection.cpp */,
 			);
 			path = CVPrograms;
 			sourceTree = "<group>";
@@ -451,6 +456,8 @@
 			children = (
 				44F58D6325AF8A64006C849A /* CameraCalibration */,
 				44F58D5925AF719E006C849A /* lena.jpg */,
+				44F58D7F25AFA4F2006C849A /* house.png */,
+				44F58D8025AFA4F2006C849A /* squares.png */,
 				44F58D7D25AF9D44006C849A /* circles.png */,
 				44F58D7E25AF9D50006C849A /* lines.png */,
 				44F58D5B25AF71AC006C849A /* BabyFood-Test6.JPG */,
@@ -560,6 +567,7 @@
 				4443109025A1183100AC7340 /* smoothing.cpp in Sources */,
 				44F58D5E25AF7E5C006C849A /* GeometryTransformation.cpp in Sources */,
 				44F58D7A25AF8AAA006C849A /* CameraCalibration.cpp in Sources */,
+				44F58D8225AFA504006C849A /* CornerDetection.cpp in Sources */,
 				44F58D7C25AF9D19006C849A /* HoughTransform.cpp in Sources */,
 				4443109225A3AC5C00AC7340 /* binaryVision.cpp in Sources */,
 				4443108E259FAEFA00AC7340 /* grayForAllPixels.cpp in Sources */,
