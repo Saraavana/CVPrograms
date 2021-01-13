@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4454B30F2569EEE200CBF64A"
-               BuildableName = "OpenCVTest"
-               BlueprintName = "OpenCVTest"
+               BuildableName = "CVPrograms"
+               BlueprintName = "CVPrograms"
                ReferencedContainer = "container:CVPrograms.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4454B30F2569EEE200CBF64A"
-            BuildableName = "OpenCVTest"
-            BlueprintName = "OpenCVTest"
+            BuildableName = "CVPrograms"
+            BlueprintName = "CVPrograms"
             ReferencedContainer = "container:CVPrograms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4454B30F2569EEE200CBF64A"
-            BuildableName = "OpenCVTest"
-            BlueprintName = "OpenCVTest"
+            BuildableName = "CVPrograms"
+            BlueprintName = "CVPrograms"
             ReferencedContainer = "container:CVPrograms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

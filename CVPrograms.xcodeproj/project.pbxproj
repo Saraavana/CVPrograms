@@ -115,11 +115,12 @@
 		4443108E259FAEFA00AC7340 /* grayForAllPixels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4443108D259FAEFA00AC7340 /* grayForAllPixels.cpp */; };
 		4443109025A1183100AC7340 /* smoothing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4443108F25A1183100AC7340 /* smoothing.cpp */; };
 		4443109225A3AC5C00AC7340 /* binaryVision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4443109125A3AC5C00AC7340 /* binaryVision.cpp */; };
-		4454B3142569EEE200CBF64A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4454B3132569EEE200CBF64A /* main.cpp */; };
+		4454B3142569EEE200CBF64A /* edgeDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4454B3132569EEE200CBF64A /* edgeDetection.cpp */; };
 		44F58D5E25AF7E5C006C849A /* GeometryTransformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D5D25AF7E5C006C849A /* GeometryTransformation.cpp */; };
 		44F58D7A25AF8AAA006C849A /* CameraCalibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D7925AF8AAA006C849A /* CameraCalibration.cpp */; };
 		44F58D7C25AF9D19006C849A /* HoughTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D7B25AF9D19006C849A /* HoughTransform.cpp */; };
 		44F58D8225AFA504006C849A /* CornerDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D8125AFA504006C849A /* CornerDetection.cpp */; };
+		44F58E0225AFAD56006C849A /* HaarCascadeClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58DFE25AFAD56006C849A /* HaarCascadeClassifier.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -253,8 +254,8 @@
 		4443108D259FAEFA00AC7340 /* grayForAllPixels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grayForAllPixels.cpp; sourceTree = "<group>"; };
 		4443108F25A1183100AC7340 /* smoothing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = smoothing.cpp; sourceTree = "<group>"; };
 		4443109125A3AC5C00AC7340 /* binaryVision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binaryVision.cpp; sourceTree = "<group>"; };
-		4454B3102569EEE200CBF64A /* OpenCVTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCVTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4454B3132569EEE200CBF64A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4454B3102569EEE200CBF64A /* CVPrograms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CVPrograms; sourceTree = BUILT_PRODUCTS_DIR; };
+		4454B3132569EEE200CBF64A /* edgeDetection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = edgeDetection.cpp; sourceTree = "<group>"; };
 		44F58D5925AF719E006C849A /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
 		44F58D5A25AF71AC006C849A /* redHatSimple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redHatSimple.jpg; sourceTree = "<group>"; };
 		44F58D5B25AF71AC006C849A /* BabyFood-Test6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BabyFood-Test6.JPG"; sourceTree = "<group>"; };
@@ -291,6 +292,11 @@
 		44F58D7F25AFA4F2006C849A /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
 		44F58D8025AFA4F2006C849A /* squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares.png; sourceTree = "<group>"; };
 		44F58D8125AFA504006C849A /* CornerDetection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CornerDetection.cpp; sourceTree = "<group>"; };
+		44F58DFE25AFAD56006C849A /* HaarCascadeClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HaarCascadeClassifier.cpp; sourceTree = "<group>"; };
+		44F58DFF25AFAD56006C849A /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		44F58E0025AFAD56006C849A /* faceDetection.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = faceDetection.py; sourceTree = "<group>"; };
+		44F58E0125AFAD56006C849A /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		44F58E2325AFB4E9006C849A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,6 +373,7 @@
 		4454B3072569EEE200CBF64A = {
 			isa = PBXGroup;
 			children = (
+				44F58E2325AFB4E9006C849A /* Info.plist */,
 				44430F85259A93CA00AC7340 /* libopencv_alphamat.4.5.1.dylib */,
 				44430F78259A93C900AC7340 /* libopencv_aruco.4.5.1.dylib */,
 				44430F84259A93CA00AC7340 /* libopencv_bgsegm.4.5.1.dylib */,
@@ -430,7 +437,7 @@
 		4454B3112569EEE200CBF64A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4454B3102569EEE200CBF64A /* OpenCVTest */,
+				4454B3102569EEE200CBF64A /* CVPrograms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -438,8 +445,9 @@
 		4454B3122569EEE200CBF64A /* CVPrograms */ = {
 			isa = PBXGroup;
 			children = (
+				44F58DFD25AFAD27006C849A /* FaceDetection_HaarClassifier */,
 				44F58D5F25AF7ED3006C849A /* Header Files */,
-				4454B3132569EEE200CBF64A /* main.cpp */,
+				4454B3132569EEE200CBF64A /* edgeDetection.cpp */,
 				4443108D259FAEFA00AC7340 /* grayForAllPixels.cpp */,
 				4443108F25A1183100AC7340 /* smoothing.cpp */,
 				4443109125A3AC5C00AC7340 /* binaryVision.cpp */,
@@ -505,12 +513,23 @@
 			path = CameraCalibration;
 			sourceTree = "<group>";
 		};
+		44F58DFD25AFAD27006C849A /* FaceDetection_HaarClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				44F58E0025AFAD56006C849A /* faceDetection.py */,
+				44F58DFF25AFAD56006C849A /* haarcascade_frontalface_alt2.xml */,
+				44F58E0125AFAD56006C849A /* haarcascade_frontalface_default.xml */,
+				44F58DFE25AFAD56006C849A /* HaarCascadeClassifier.cpp */,
+			);
+			path = FaceDetection_HaarClassifier;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4454B30F2569EEE200CBF64A /* OpenCVTest */ = {
+		4454B30F2569EEE200CBF64A /* CVPrograms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4454B3172569EEE200CBF64A /* Build configuration list for PBXNativeTarget "OpenCVTest" */;
+			buildConfigurationList = 4454B3172569EEE200CBF64A /* Build configuration list for PBXNativeTarget "CVPrograms" */;
 			buildPhases = (
 				4454B30D2569EEE200CBF64A /* Frameworks */,
 				4454B30E2569EEE200CBF64A /* CopyFiles */,
@@ -521,9 +540,9 @@
 			);
 			dependencies = (
 			);
-			name = OpenCVTest;
+			name = CVPrograms;
 			productName = OpenCVTest;
-			productReference = 4454B3102569EEE200CBF64A /* OpenCVTest */;
+			productReference = 4454B3102569EEE200CBF64A /* CVPrograms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -553,7 +572,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4454B30F2569EEE200CBF64A /* OpenCVTest */,
+				4454B30F2569EEE200CBF64A /* CVPrograms */,
 			);
 		};
 /* End PBXProject section */
@@ -563,10 +582,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4454B3142569EEE200CBF64A /* main.cpp in Sources */,
+				4454B3142569EEE200CBF64A /* edgeDetection.cpp in Sources */,
 				4443109025A1183100AC7340 /* smoothing.cpp in Sources */,
 				44F58D5E25AF7E5C006C849A /* GeometryTransformation.cpp in Sources */,
 				44F58D7A25AF8AAA006C849A /* CameraCalibration.cpp in Sources */,
+				44F58E0225AFAD56006C849A /* HaarCascadeClassifier.cpp in Sources */,
 				44F58D8225AFA504006C849A /* CornerDetection.cpp in Sources */,
 				44F58D7C25AF9D19006C849A /* HoughTransform.cpp in Sources */,
 				4443109225A3AC5C00AC7340 /* binaryVision.cpp in Sources */,
@@ -628,10 +648,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_DEFINITION_PLIST = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -681,9 +703,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_DEFINITION_PLIST = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -691,10 +715,14 @@
 		4454B3182569EEE200CBF64A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NP46TXR25Z;
 				HEADER_SEARCH_PATHS = "/usr/local/include/opencv4/**";
+				INFOPLIST_FILE = "";
 				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saravana.CVPrograms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -702,9 +730,13 @@
 		4454B3192569EEE200CBF64A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NP46TXR25Z;
 				HEADER_SEARCH_PATHS = "/usr/local/include/opencv4/**";
+				INFOPLIST_FILE = "";
 				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saravana.CVPrograms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -721,7 +753,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4454B3172569EEE200CBF64A /* Build configuration list for PBXNativeTarget "OpenCVTest" */ = {
+		4454B3172569EEE200CBF64A /* Build configuration list for PBXNativeTarget "CVPrograms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4454B3182569EEE200CBF64A /* Debug */,
