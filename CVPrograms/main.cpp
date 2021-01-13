@@ -64,8 +64,8 @@ void CannyThreshold(int, void*) {
 /*
 int main() {
 
-    img = imread("/Users/saravana/Desktop/lena.jpg");
-
+    img = imread("/Users/saravana/Desktop/CVPrograms/Images/lena.jpg");
+ 
     if (img.empty())
     {
         cout << "Could not open or find the image!" << endl;

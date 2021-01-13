@@ -18,9 +18,10 @@ using namespace cv;
 
 int main()
 {
-    string imagePath1 = "/Users/saravana/Desktop/Bildschirmfoto 2021-01-04 um 9.30.37 PM.png";
-    string imagePath2 = "/Users/saravana/Documents/Photos/Saravanakumar_Gopalakrishnan.JPG";
-    string imagePath3 = "/Users/saravana/Documents/Photos/Saravanakumar.png";
+    string imagePath1 = "/Users/saravana/Desktop/CVPrograms/Images/lena.jpg";
+    string imagePath2 = "/Users/saravana/Desktop/CVPrograms/Images/redHats.jpg";
+    string imagePath3 = "/Users/saravana/Desktop/CVPrograms/Images/redHatSimple.jpg";
+    
 
     Mat img = imread(imagePath3, IMREAD_COLOR);
     resize(img, img, Size(600, 400));

@@ -19,8 +19,8 @@ using namespace std;
 
 int main()
 {
-    string image_path1 = "/Users/saravana/Desktop/lena.jpg";
-    string image_path2 = "/Users/saravana/Desktop/lena.jpg";
+    string image_path1 = "/Users/saravana/Desktop/CVPrograms/Images/lena.jpg";
+    string image_path2 = "/Users/saravana/Desktop/CVPrograms/Images/lena.jpg";
 
     cv::Mat astro1 = cv::imread(image_path1, cv::IMREAD_COLOR);
     cv::Mat astro2 = cv::imread(image_path2, cv::IMREAD_COLOR);

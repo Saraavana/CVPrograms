@@ -17,10 +17,10 @@ const int max_value = 255;
 /*
 int main()
 {
-    string image_path1 = "/Users/saravana/Desktop/sample_photos/BabyFood-Test6.JPG";
-    string image_path2 = "/Users/saravana/Desktop/sample_photos/redHats.jpg";
-    string image_path3 = "/Users/saravana/Desktop/sample_photos/redHatSimple.jpg";
-
+    string image_path1 = "/Users/saravana/Desktop/CVPrograms/Images/BabyFood-Test6.JPG";
+    string image_path2 = "/Users/saravana/Desktop/CVPrograms/Images/redHats.jpg";
+    string image_path3 = "/Users/saravana/Desktop/CVPrograms/Images/redHatSimple.jpg";
+  
     Mat image1 = imread(image_path3, IMREAD_COLOR);
     resize(image1, image1, {500,500});
 

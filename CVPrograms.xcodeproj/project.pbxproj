@@ -251,6 +251,10 @@
 		4443109125A3AC5C00AC7340 /* binaryVision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binaryVision.cpp; sourceTree = "<group>"; };
 		4454B3102569EEE200CBF64A /* OpenCVTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCVTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4454B3132569EEE200CBF64A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		44F58D5925AF719E006C849A /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
+		44F58D5A25AF71AC006C849A /* redHatSimple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redHatSimple.jpg; sourceTree = "<group>"; };
+		44F58D5B25AF71AC006C849A /* BabyFood-Test6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BabyFood-Test6.JPG"; sourceTree = "<group>"; };
+		44F58D5C25AF71AC006C849A /* redHats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redHats.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,6 +384,7 @@
 				44430F9D259A93CB00AC7340 /* libopencv_ximgproc.4.5.1.dylib */,
 				44430F8A259A93CA00AC7340 /* libopencv_xobjdetect.4.5.1.dylib */,
 				44430F9C259A93CB00AC7340 /* libopencv_xphoto.4.5.1.dylib */,
+				44F58D5825AF7179006C849A /* Images */,
 				4454B3122569EEE200CBF64A /* CVPrograms */,
 				4454B3112569EEE200CBF64A /* Products */,
 				44431015259A951900AC7340 /* Frameworks */,
@@ -403,6 +408,17 @@
 				4443109125A3AC5C00AC7340 /* binaryVision.cpp */,
 			);
 			path = CVPrograms;
+			sourceTree = "<group>";
+		};
+		44F58D5825AF7179006C849A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				44F58D5925AF719E006C849A /* lena.jpg */,
+				44F58D5B25AF71AC006C849A /* BabyFood-Test6.JPG */,
+				44F58D5C25AF71AC006C849A /* redHats.jpg */,
+				44F58D5A25AF71AC006C849A /* redHatSimple.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
