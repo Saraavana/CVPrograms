@@ -121,6 +121,7 @@
 		44F58D7C25AF9D19006C849A /* HoughTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D7B25AF9D19006C849A /* HoughTransform.cpp */; };
 		44F58D8225AFA504006C849A /* CornerDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58D8125AFA504006C849A /* CornerDetection.cpp */; };
 		44F58E0225AFAD56006C849A /* HaarCascadeClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58DFE25AFAD56006C849A /* HaarCascadeClassifier.cpp */; };
+		44F58E2A25B04270006C849A /* Detection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44F58E2625B0426F006C849A /* Detection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -297,6 +298,11 @@
 		44F58E0025AFAD56006C849A /* faceDetection.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = faceDetection.py; sourceTree = "<group>"; };
 		44F58E0125AFAD56006C849A /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
 		44F58E2325AFB4E9006C849A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F58E2525B0426F006C849A /* floor_plan_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_plan_small.png; sourceTree = "<group>"; };
+		44F58E2625B0426F006C849A /* Detection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Detection.cpp; sourceTree = "<group>"; };
+		44F58E2725B0426F006C849A /* floor_plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_plan.png; sourceTree = "<group>"; };
+		44F58E2825B04270006C849A /* Hough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hough.h; sourceTree = "<group>"; };
+		44F58E2925B04270006C849A /* robot_control.pro */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = robot_control.pro; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,6 +451,7 @@
 		4454B3122569EEE200CBF64A /* CVPrograms */ = {
 			isa = PBXGroup;
 			children = (
+				44F58E2425B0425A006C849A /* MarbleDetection */,
 				44F58DFD25AFAD27006C849A /* FaceDetection_HaarClassifier */,
 				44F58D5F25AF7ED3006C849A /* Header Files */,
 				4454B3132569EEE200CBF64A /* edgeDetection.cpp */,
@@ -524,6 +531,18 @@
 			path = FaceDetection_HaarClassifier;
 			sourceTree = "<group>";
 		};
+		44F58E2425B0425A006C849A /* MarbleDetection */ = {
+			isa = PBXGroup;
+			children = (
+				44F58E2525B0426F006C849A /* floor_plan_small.png */,
+				44F58E2725B0426F006C849A /* floor_plan.png */,
+				44F58E2825B04270006C849A /* Hough.h */,
+				44F58E2625B0426F006C849A /* Detection.cpp */,
+				44F58E2925B04270006C849A /* robot_control.pro */,
+			);
+			path = MarbleDetection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -590,6 +609,7 @@
 				44F58D8225AFA504006C849A /* CornerDetection.cpp in Sources */,
 				44F58D7C25AF9D19006C849A /* HoughTransform.cpp in Sources */,
 				4443109225A3AC5C00AC7340 /* binaryVision.cpp in Sources */,
+				44F58E2A25B04270006C849A /* Detection.cpp in Sources */,
 				4443108E259FAEFA00AC7340 /* grayForAllPixels.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
